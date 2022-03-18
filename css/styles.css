@@ -26,7 +26,7 @@
   margin: 0;
   padding: 0;
   font-size: 2rem;
-  max-height: 100vh;
+  max-height: 80vh;
 }
 
 body {
@@ -83,10 +83,11 @@ nav {
   padding: 5vw;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 65%;
+  height: 100%;
+  width: 50%;
   background-color: var(--background-color2);
   border-radius: 7px;
+  gap: 2rem;
 }
 
 /*  Main right-side of viewport */
@@ -96,24 +97,23 @@ nav {
   position: relative;
   justify-content: center;
   margin: 5vw;
-  padding: 7vw;
-  padding-top: 0;
+  margin-top: 0;
+  padding: 5vw;
+  padding-top: 10vh;
   padding-left: 0;
-  gap: 2vh;
-  height: 100rem;
+  gap: 5vh;
+  height: 60rem;
+  width: 60vw;
 }
 
 header {
   display: flex;
   flex-direction: row;
   position: relative;
-  text-align: left;
-  left: 10%;
-  height: 50vh;
-  width: 60vw;
-
+  line-height: 1rem;
+  height: 20vh;
+  width: 70vw;
 }
-
 
 .head-card1 img {
   height: 25vh;
@@ -138,6 +138,8 @@ header {
   grid-gap: 50%;
   height: 90vh;
   width: 100%;
+  margin-top: 10%;
+  padding-bottom: 20%;
   font-size: .5rem;
   overflow: scroll;
   -ms-overflow-style: none; 
@@ -152,7 +154,6 @@ header {
 .main-section li {
   font-size: 60%;
 }
-
 
 .card {
   padding-left: 10%;
