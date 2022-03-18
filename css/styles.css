@@ -44,7 +44,7 @@ h2, h3, h4, em, strong {
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 a {
@@ -79,10 +79,13 @@ nav {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin: 7rem;
-  margin-top: 2rem;
+  justify-content: center;
+  margin: 5vw;
+  margin-top: 5vh;
+  padding: 7vw;
+  padding-top: 0;
   gap: 3rem;
-  height: 70vh;
+  height: 80vh;
 }
 
 header {
@@ -91,14 +94,11 @@ header {
   position: relative;
   /* padding: 2rem; */
   text-align: left;
+  /* justify-content: center; */
   height: 50vh;
   width: 60vw;
-  /* overflow: hidden; */
 }
 
-/* #me {
-  float: right;
-} */
 
 .head-card1 img {
   height: 25vh;
@@ -135,7 +135,7 @@ header {
 
 .main-section li {
   font-size: 60%;
-  text-indent: 5%;
+  text-indent: 2%;
 }
 
 
@@ -149,11 +149,17 @@ header {
   align-items: center;
 }
 
-.card1-header {
+.card-header {
   font-family: var(--title-font);
   font-weight: 600;
 }
 
 #ol {
   list-style-type: decimal;
+}
+
+.tagline {
+  font-family: var(--title-font);
+  font-weight: 700;
+  font-size: 1.9;
 }
