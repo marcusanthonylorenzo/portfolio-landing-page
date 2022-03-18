@@ -1,42 +1,71 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 
 /* Organising my palette so I can establish layout before content */
 :root {
+  --background-color: #fff0e498;
   --primary-color: #;
-  --highlights: #;
   --secondary-color: #;
-  --select-color: #;
+  --hover: #;
 
-  --title-color: #;
-  --heading-color: #;
-  --text-color: #;
+  --title-color: #385bb9;
+  --heading-color: #416adbe8;
+  --text-color: #4469cff3;
 
   --title-font: "League Spartan";
   --heading-font: "Abril Fatface";
   --text-font: "Josefin Sans";
+  
+  font-size: 16px;
+}
 
-
-/*  REMINDER:
-h1 = title,
-h2 > = heading,
-general text = text
-*/
-
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
 }
 
 body {
-  background-color: #fff0e498;
-  color: #3a5bb8ec;
+  background-color: var(--background-color);
+  color: var(--text-color);
   font-family: var(--text-font);
 }
 
 h1 {
+  color: var(--title-color);
   font-family: var(--title-font);
+  font-size: 90%;
 }
 
 h2, h3, h4 {
+  color: var(--heading-color);
   font-family: var(--heading-font);
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-areas: "left center right";
+  gap: 1em;
+}
+
+nav {
+  grid-area: left;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-scrollbox {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 2rem;
+  text-align: center;
+  background-color: #fad6b8;
+  width: 100%;
+}
+
+.main-section {
+  grid-area: center;
 }
