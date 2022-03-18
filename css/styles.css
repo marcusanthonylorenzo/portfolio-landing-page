@@ -80,6 +80,7 @@ nav {
   flex-direction: column;
   position: relative;
   margin: 7rem;
+  margin-top: 5rem;
   gap: 3rem;
   height: 70vh;
 }
@@ -90,16 +91,23 @@ header {
   position: relative;
   /* padding: 2rem; */
   text-align: left;
-  height: 40vh;
+  height: 100vh;
   width: 60vw;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
-#me {
+/* #me {
   float: right;
+} */
+
+.head-card1 img {
+  height: 30vh;
 }
 
 .head-card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-left: 5rem;
   font-size: 80%;
 }
