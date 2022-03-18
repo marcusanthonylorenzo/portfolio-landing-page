@@ -1,11 +1,15 @@
 
 /* Organising my palette so I can establish layout before content */
 :root {
-  --background-color: #fff0e498;
-  --background-color2: #f0b380;
+  --background-color: #ffedc57e;
+  --background-color2: #3279bbc0;
   --primary-color: #;
-  --secondary-color: #;
-  --hover: #;
+  --secondary-color: #ffdcae;
+  --hover: #da90f1d5;
+
+  /* --title-color: #385bb9;
+  --heading-color: #416adbe8;
+  --text-color: #4469cff3; */
 
   --title-color: #385bb9;
   --heading-color: #416adbe8;
@@ -49,6 +53,14 @@ p {
 
 a {
   text-decoration: none;
+  color: var(--secondary-color);
+  /* font-family: var(--heading-font); */
+}
+
+a:hover {
+  display: flex;
+  color: var(--hover);
+  transform: scale(103%);
 }
 
 ul {
@@ -59,19 +71,22 @@ ul {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-areas: "left center right";
-  /* gap: 1em; */
+  padding: 0;
+  margin-bottom: 0;
 }
 
+/* Navbar */
 nav {
   grid-area: left;
   display: flex;
   flex-direction: column;
-  padding: 1vh;
+  padding: 5vw;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 65%;
   background-color: var(--background-color2);
-  border-radius: 5px;
+  border-radius: 7px;
 }
 
 /*  Main right-side of viewport */
@@ -84,7 +99,8 @@ nav {
   margin-top: 5vh;
   padding: 7vw;
   padding-top: 0;
-  gap: 3rem;
+  padding-left: 0;
+  gap: 2vh;
   height: 80vh;
 }
 
@@ -92,11 +108,12 @@ header {
   display: flex;
   flex-direction: row;
   position: relative;
-  /* padding: 2rem; */
   text-align: left;
   /* justify-content: center; */
+  left: 10%;
   height: 50vh;
   width: 60vw;
+  padding-bottom: 2vh;
 }
 
 
@@ -126,6 +143,7 @@ header {
   overflow: scroll;
   -ms-overflow-style: none; 
   scrollbar-width: none;
+  scroll-behavior: smooth;
 }
 
 
@@ -135,18 +153,20 @@ header {
 
 .main-section li {
   font-size: 60%;
-  text-indent: 2%;
 }
 
 
 .card {
   margin-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #minion {
   height: 20vh;
   float: right;
-  align-items: center;
+  padding-bottom: 6vh;
+  padding-left: 2vw;
 }
 
 .card-header {
@@ -156,10 +176,20 @@ header {
 
 #ol {
   list-style-type: decimal;
+  list-style-position: inside;
 }
 
 .tagline {
   font-family: var(--title-font);
   font-weight: 700;
-  font-size: 1.9;
+  font-size: 1.9rem;
+}
+
+.card p {
+  font-size: 1.2rem;
+}
+
+
+.battle {
+  height: 10%;
 }
