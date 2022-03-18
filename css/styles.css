@@ -12,7 +12,7 @@
   --text-color: #4469cff3;
 
   --title-font: "League Spartan";
-  --heading-font: "Abril Fatface";
+  --heading-font: "Josefin Sans";
   --text-font: "Josefin Sans";
   
   font-size: 16px;
@@ -31,20 +31,20 @@ body {
   font-family: var(--text-font);
 }
 
-h1,em {
+h1 {
   color: var(--title-color);
   font-family: var(--title-font);
   font-size: 92%;
 }
 
-h2, h3, h4, em {
+h2, h3, h4, em, strong {
   color: var(--heading-color);
   font-family: var(--heading-font);
   font-size: 90%;
 }
 
 p {
-  font-size: 1.9rem;
+  font-size: 1.8rem;
 }
 
 a {
@@ -80,7 +80,7 @@ nav {
   flex-direction: column;
   position: relative;
   margin: 7rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
   gap: 3rem;
   height: 70vh;
 }
@@ -91,7 +91,7 @@ header {
   position: relative;
   /* padding: 2rem; */
   text-align: left;
-  height: 100vh;
+  height: 50vh;
   width: 60vw;
   /* overflow: hidden; */
 }
@@ -101,7 +101,12 @@ header {
 } */
 
 .head-card1 img {
-  height: 30vh;
+  height: 25vh;
+  border-radius: 200px;
+}
+
+#name {
+  font-size: 105%
 }
 
 .head-card2 {
@@ -116,18 +121,32 @@ header {
   display: grid;
   grid-template-rows: 3fr 3fr 3fr 3fr;
   grid-gap: 100%;
+  height: 70vh;
+  font-size: .5rem;
   overflow: scroll;
-  
   -ms-overflow-style: none; 
-  scrollbar-width: none; 
+  scrollbar-width: none;
 }
+
 
 .main-section::-webkit-scrollbar {
   display: none;
 }
 
+.main-section li {
+  font-size: 60%;
+  text-indent: 5%;
+}
+
+
 .card {
   margin-bottom: 10%;
+}
+
+#minion {
+  height: 20vh;
+  float: right;
+  align-items: center;
 }
 
 .card1-header {
