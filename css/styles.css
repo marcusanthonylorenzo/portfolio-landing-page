@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Organising my palette so I can establish layout before content */
+:root {
+  --primary-color: #;
+  --highlights: #;
+  --secondary-color: #;
+  --select-color: #;
+
+  --title-color: #;
+  --heading-color: #;
+  --text-color: #;
+
+  --title-font: "League Spartan";
+  --heading-font: "Abril Fatface";
+  --text-font: "Josefin Sans";
+
+
+/*  REMINDER:
+h1 = title,
+h2 > = heading,
+general text = text
+*/
+
+}
+
+body {
+  background-color: #fff0e498;
+  color: #3a5bb8ec;
+  font-family: var(--text-font);
+}
+
+h1 {
+  font-family: var(--title-font);
+}
+
+h2, h3, h4 {
+  font-family: var(--heading-font);
+}
