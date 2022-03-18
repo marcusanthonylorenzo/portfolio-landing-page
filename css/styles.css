@@ -2,6 +2,7 @@
 /* Organising my palette so I can establish layout before content */
 :root {
   --background-color: #fff0e498;
+  --background-color2: #f0b380;
   --primary-color: #;
   --secondary-color: #;
   --hover: #;
@@ -21,6 +22,7 @@
   margin: 0;
   padding: 0;
   font-size: 2rem;
+  max-height: 100vh;
 }
 
 body {
@@ -29,43 +31,74 @@ body {
   font-family: var(--text-font);
 }
 
-h1 {
+h1,em {
   color: var(--title-color);
   font-family: var(--title-font);
-  font-size: 90%;
+  font-size: 92%;
 }
 
-h2, h3, h4 {
+h2, h3, h4, em {
   color: var(--heading-color);
   font-family: var(--heading-font);
+  font-size: 85%;
+}
+
+p {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 .container{
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-areas: "left center right";
-  gap: 1em;
+  /* gap: 1em; */
 }
 
 nav {
   grid-area: left;
   display: flex;
   flex-direction: column;
+  padding: 1vh;
+  justify-content: center;
   height: 100vh;
+  background-color: var(--background-color2);
+  border-radius: 5px;
 }
 
 .main-scrollbox {
   display: flex;
   flex-direction: column;
+  position: relative;
+  margin: 5.5rem;
+  gap: 5rem;
 }
 
 header {
   padding: 2rem;
-  text-align: center;
-  background-color: #fad6b8;
+  text-align: left;
+  /* background-color: var(--background-color2); */
   width: 100%;
 }
 
+
 .main-section {
-  grid-area: center;
+  display: grid;
+  grid-template-rows: 3fr 3fr 3fr 3fr;
+  grid-gap: 100%;
+  overflow: scroll;
+  
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+.main-section::-webkit-scrollbar {
+  display: none;
 }
