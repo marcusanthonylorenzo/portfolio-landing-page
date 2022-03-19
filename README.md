@@ -16,11 +16,11 @@ _One day, I would like to produce a more intuitive, responsive page that is clea
 
 ## Setup/Installation Requirements
 
-* Download and install Git Bash (Windows) or open Terminal(Mac)_
-* Open Git Bash or Terminal and type "~/desktop"_
+* Download and install Git Bash (Windows) or open Terminal(Mac)
+* Open Git Bash or Terminal and type "~/desktop"
 * After type "git clone https://github.com/marcusanthonylorenzo/portfolio-landing-page_"
 * Once completed, type "Code ."
-* Once opened, open index.html via live server
+* Once opened, open index.html via live server.
 
 
 ## Github Pages Link:
