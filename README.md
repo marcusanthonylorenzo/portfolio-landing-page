@@ -17,8 +17,8 @@ _One day, I would like to produce a more intuitive, responsive page that is clea
 ## Setup/Installation Requirements
 
 * _Download and install Git Bash (Windows) or open Terminal(Mac)_
-* _Open Git Bash or Terminal and type "~/desktop"
-* _After type "git clone https://github.com/marcusanthonylorenzo/portfolio-landing-page_
+* _Open Git Bash or Terminal and type "~/desktop"_
+* _After type "git clone https://github.com/marcusanthonylorenzo/portfolio-landing-page_"_
 * _Once completed, type "Code ."_
 * _Once opened, open index.html via live server_
 
@@ -28,6 +28,6 @@ _One day, I would like to produce a more intuitive, responsive page that is clea
 
 ## License
 
-__
+_MIT_
 
 Copyright (c) _Marcus Padilla_
