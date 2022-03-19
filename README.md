@@ -22,6 +22,12 @@ _One day, I would like to produce a more intuitive, responsive page that is clea
 * _Once completed, type "Code ."_
 * _Once opened, open index.html via live server_
 
+
+## Github Pages Link:
+
+* https://marcusanthonylorenzo.github.io/portfolio-landing-page/#
+
+
 ## Known Bugs
 
 * _No media queries, responsiveness ideal for maximized window_
