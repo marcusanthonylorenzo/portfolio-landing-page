@@ -2,7 +2,7 @@
 
 #### By _**Marcus Padilla**_
 
-#### _First project, an online "resume" of sorts. Never used CSS Grid before, used documentation to learn and apply by a 5pm deadline. _
+#### _First project, an online "resume" of sorts. Never used CSS Grid before, used documentation to learn and apply by a 5pm deadline._
 
 ## Technologies Used
 
